@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Doggie Diary</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Los Doggos</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="intro.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <img src="logo_corgi.jpg" alt="">
+            <h2>Tora & Piitu</h2>
+            <h3>are our little</h3>
+            <h4>family corgis</h4>
+            <a href="about.html">To the doggos</a>
+        </div>
+        
+        <ul class="socials">
+            <li><a href="https://www.facebook.com"><img src="icons/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com"><img src="icons/instagram.png" alt=""></a></li>
+            <li><a href="https://www.reddit.com"><img src="icons/reddit.png" alt=""></a></li>
+            <li><a href="https://www.twitter.com"><img src="icons/twitter.png" alt=""></a></li>
+            <li><a href="https://www.youtube.com"><img src="icons/youtube.png" alt=""></a></li>
+
+        </ul>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </div>
+
+    <script>
+            const menuToggle = document.querySelector(".toggle")
+            const showcase = document.querySelector(".showcase")
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+    </script>
+</body>
+</html>

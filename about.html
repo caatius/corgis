@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/abstyle.css">
+    <title>Short (as a) corgi story (with cute little corgi butts)</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Los Doggos</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <img src="logo_corgi.jpg" alt="">
+            <h2>Tora & Piitu</h2>
+            <h3>They've been together for just over three years.</h3>
+        </div>
+
+        <div class="corgis">
+            <img src="img/tora.jpg" alt="">
+            <h3>Tora is the more slender and older of the two. She's turning 13 on the last day of January.</h3>
+            <img src="img/piitu.jpg" alt="">
+            <h3>Piitu is turning 10 in March. She's a bit bulkier, a genius (or mentally challenged) and a total klutz.</h3>
+            <img src="img/together.jpg" alt="">
+            <h3>For more pictures of these two cutiepies, check out the gallery.</h3>
+        </div>
+
+        </div>
+
+        <ul class="socials">
+            <li><a href="https://www.facebook.com"><img src="icons/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com"><img src="icons/instagram.png" alt=""></a></li>
+            <li><a href="https://www.reddit.com"><img src="icons/reddit.png" alt=""></a></li>
+            <li><a href="https://www.twitter.com"><img src="icons/twitter.png" alt=""></a></li>
+            <li><a href="https://www.youtube.com"><img src="icons/youtube.png" alt=""></a></li>
+
+        </ul>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </div>
+
+    <script>
+            const menuToggle = document.querySelector(".toggle")
+            const showcase = document.querySelector(".showcase")
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+    </script>
+</body>
+</html>
